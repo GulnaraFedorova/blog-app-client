@@ -40,10 +40,10 @@
 ## Запуск проекта
 
 ## 1 Клонирование репозитория
-# Клонируем клиент
+#### Клонируем клиент
 git clone https://github.com/GulnaraFedorova/blog-app-client.git
 
-# Клонируем сервер
+#### Клонируем сервер
 git clone https://github.com/GulnaraFedorova/blog-app-server.git
 
 ## 2 Запуск клиента и сервера
