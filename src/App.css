@@ -32,7 +32,13 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
 }
