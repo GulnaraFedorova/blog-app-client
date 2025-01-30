@@ -39,14 +39,14 @@
 
 ## Запуск проекта
 
-### 1️⃣ Клонирование репозитория
+## 1 Клонирование репозитория
 # Клонируем клиент
 git clone https://github.com/GulnaraFedorova/blog-app-client.git
 
 # Клонируем сервер
 git clone https://github.com/GulnaraFedorova/blog-app-server.git
 
-### 2️⃣ Запуск клиента и сервера
+## 2 Запуск клиента и сервера
 
 #### 2.1 Настроим переменные окружения
 Создай файл `.env` в папке `server/` и добавь:
@@ -68,7 +68,7 @@ npm start
 ```
 По умолчанию сервер запустится на `http://localhost:5000`
 
-### 3️⃣ Запуск фронтенда
+#### 2.3 Запуск фронтенда
 ```bash
 cd client
 npm install
