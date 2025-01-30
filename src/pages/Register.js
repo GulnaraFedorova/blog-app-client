@@ -25,7 +25,7 @@ const Register = () => {
             message.success(`Регистрация успешна! Добро пожаловать, ${response.data.name || response.data.email}`);
     
             // Перенаправляем сразу в блог
-            setTimeout(() => navigate("/blog"), 2000);
+            setTimeout(() => navigate("/login"), 2000);
         } catch (error) {
             console.error("Ошибка регистрации:", error);
     

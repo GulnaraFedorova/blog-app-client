@@ -4,7 +4,7 @@
 
 ## Демо
 
-- Фронтенд: https://blog-app-client.vercel.app
+- Фронтенд: https://blog-app-client-seven-xi.vercel.app/
 - Бэкенд: https://blog-app-server-mn0b.onrender.com
 - API-документация: https://blog-app-server-mn0b.onrender.com/api-docs/
 
@@ -40,15 +40,15 @@
 ## Запуск проекта
 
 ## 1 Клонирование репозитория
-#### Клонируем клиент
+#### Клонируйте клиент
 git clone https://github.com/GulnaraFedorova/blog-app-client.git
 
-#### Клонируем сервер
+#### Клонируйте сервер
 git clone https://github.com/GulnaraFedorova/blog-app-server.git
 
 ## 2 Запуск клиента и сервера
 
-#### 2.1 Настроим переменные окружения
+#### 2.1 Настройте переменные окружения
 Создай файл `.env` в папке `server/` и добавь:
 ```env
 DB_NAME=blog_db
@@ -60,7 +60,7 @@ JWT_SECRET=your_secret_key
 UPLOADS_FOLDER=uploads
 ```
 
-#### 2.2 Установим зависимости и запустим сервер
+#### 2.2 Установите зависимости и запустим сервер
 ```bash
 cd server
 npm install
